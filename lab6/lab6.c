@@ -4,17 +4,17 @@
 
 void zadanie1() {
     int year;
-    printf("Введите год: ");
+    printf("Р’РІРµРґРёС‚Рµ РіРѕРґ: ");
     scanf("%d", &year);
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-        printf("Год %d високосный\n", year);
+        printf("Р“РѕРґ %d РІРёСЃРѕРєРѕСЃРЅС‹Р№\n", year);
     else
-        printf("Год %d не високосный\n", year);
+        printf("Р“РѕРґ %d РЅРµ РІРёСЃРѕРєРѕСЃРЅС‹Р№\n", year);
 }
 
 void zadanie2() {
     double x;
-    printf("  Вариант 4\nВведите x: ");
+    printf("  Р’Р°СЂРёР°РЅС‚ 4\nР’РІРµРґРёС‚Рµ x: ");
     scanf("%lf", &x);
     printf("F(x) = %f\n", (x <= 1) ? 0.0 : (1.0 / (x + 6.0)));
 }
